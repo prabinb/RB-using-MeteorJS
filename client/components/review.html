@@ -1,0 +1,36 @@
+<template name="review">
+    <div class="col-sm-4" data-id="{{ _id }}">
+        <div class="tile purple">
+            <div class="row">
+                <div class="col-xs-10">
+                    <h3 class="title">{{ title }}</h3>
+                </div>
+                <div class="col-xs-2">
+                    <img class="img-responsive" src="img/flipkart-logo.jpeg"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>{{ comment }}</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row" style="font-size:10px;">
+                <div class="col-xs-1">
+                    <span class="glyphicon glyphicon-thumbs-up"></span>
+                </div>
+                <div class="col-xs-3">
+                    <span>({{ helpful }}) Helpful</span>
+                </div>
+                <div class="col-xs-1">
+                    <span class="glyphicon glyphicon-thumbs-down"></span>
+                </div>
+                <div class="col-xs-3">
+                    <span>({{ notHelpful }}) Not Helpful</span>
+                </div>
+                <div class="col-xs-3">
+                    <span>{{ date }}</span></div>
+            </div>
+        </div>
+    </div>
+</template>
