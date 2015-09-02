@@ -1,1 +1,1 @@
-Reviews = new Mongo.collection('reviews');
+Reviews = new Mongo.Collection('reviews');
